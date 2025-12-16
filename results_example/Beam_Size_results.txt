@@ -1,0 +1,9 @@
+Beam size x in micrometers = 379
+Beam size y in micrometers = 404
+Pointing stability (RMS) in axis x in micrometers = 54.4
+Pointing stability (RMS) in axis y in micrometers = 62.9
+Pointing stability (RMS) in axis r in micrometers = 83.1
+Beams average x position in pixels = 468
+Beams average y position in pixels = 461
+Pixel size in micrometers = 5
+Name of the directory of the images = images_direct
