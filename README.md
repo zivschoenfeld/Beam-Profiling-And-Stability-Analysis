@@ -31,7 +31,7 @@ The implementation follows the course guidelines for:
 1.  Clone the repository.
 2.  Install the required dependencies:
     ```bash
-    pip install numpy scipy matplotlib tifffile imagecodecs
+    pip install numpy scipy matplotlib tifffile 
     ```
 
 ## Usage
