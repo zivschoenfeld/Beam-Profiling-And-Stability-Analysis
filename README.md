@@ -1,7 +1,7 @@
 # Laser Beam Profiling & Stability Analysis
 
 ## Overview
-This repository contains the code for a final project in the **[Course Name]** course at **Tel Aviv University** (2025).
+This repository contains the code for a final project in the **Computers for Physics** course at **Tel Aviv University** (2025).
 
 The project focuses on the characterization of laser beams using scientific image processing. By analyzing raw sensor data, the tool measures the beam's profile, calculates its width using statistical fitting, and tracks the "pointing stability" (positional drift) over time.
 
@@ -48,7 +48,6 @@ To run the analysis:
 ## Project Structure
 * `Final_Project_Main.py`: The core analysis logic and fitting algorithms.
 * `input.txt`: Configuration file specifying the data directory and sensor size.
-* `.gitignore`: Ensures raw data and system files are not uploaded.
 
 ## Disclaimer
 This code is intended as a portfolio piece to demonstrate scientific computing skills. **If you are a current student in this course, please adhere to the university's academic integrity policies.** Do not submit this code as your own work.
