@@ -169,9 +169,9 @@ output_file = open("Beam_Size_results.txt", "w")
 lines = [
     f'Beam size x in micrometers = {beam_size_x:.3g}\n',
     f'Beam size y in micrometers = {beam_size_y:.3g}\n',
-    f'Pointing stability in axis x in micrometers = {pointing_stability_x_axis:.3g}\n',
-    f'Pointing stability in axis y in micrometers = {pointing_stability_y_axis:.3g}\n',
-    f'Pointing stability in axis r in micrometers = {pointing_stability_radial_axis:.3g}\n',
+    f'Pointing stability (RMS) in axis x in micrometers = {pointing_stability_x_axis:.3g}\n',
+    f'Pointing stability (RMS) in axis y in micrometers = {pointing_stability_y_axis:.3g}\n',
+    f'Pointing stability (RMS) in axis r in micrometers = {pointing_stability_radial_axis:.3g}\n',
     f'Beams average x position in pixels = {average_beam_position_x:.3g}\n',
     f'Beams average y position in pixels = {average_beam_position_y:.3g}\n',
     f'Pixel size in micrometers = {pixel_size:.3g}\n',
@@ -204,6 +204,7 @@ plt.grid(True)
 plt.legend()
 plt.savefig("beam position as function of time plot")   
 plt.show()
+
 
 
 
