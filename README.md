@@ -5,14 +5,14 @@ This repository contains the code for a final project in the **Computers for Phy
 
 The project focuses on the characterization of laser beams using scientific image processing. By analyzing raw sensor data, the tool measures the beam's profile, calculates its width using statistical fitting, and tracks the "pointing stability" (positional drift) over time.
 
-This code assumes 2-D gaussian distribution of the laser beam intensity and shows gaussian fit and residuals of the first image in the data directory as sanity check for the analysis of the rest of the algorithm.
+This script models the laser intensity using a 2-D [Gaussian Beam](https://en.wikipedia.org/wiki/Gaussian_beam) profile and shows Gaussian fit and residuals of the first image in the data directory as sanity check for the analysis of the rest of the algorithm.
 
 ## Project Context
 This software was developed as part of the academic curriculum for a Physics degree. The code was written specifically to meet the final project directives provided by the course instructors.
 
 The implementation follows the course guidelines for:
 * **Data Handling:** Loading and processing raw scientific images.
-* **Physical Modeling:** Implementing the specific 1-D Gaussian fitting algorithms required by the lab instructions.
+* **Physical Modeling:** Implementing the specific 1-D Gaussian fitting algorithms required by the course instructions.
 * **Stability Metrics:** Calculating Root Mean Square (RMS) error to quantify beam stability.
 
 ## Features
@@ -46,8 +46,8 @@ To run the analysis:
     ```
 
 ## Project Structure
-* `Final_Project_Main.py`: The core analysis logic and fitting algorithms.
-* `input.txt`: Configuration file specifying the data directory and sensor size.
+* `Final_Project_Main.py`: The code.
+* `input.txt`: text file specifying the data directory and sensor size.
 * 'results_example': Example of code output.
 
 ## Disclaimer
