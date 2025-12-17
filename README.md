@@ -50,5 +50,12 @@ To run the analysis:
 * `input.txt`: text file specifying the data directory and sensor size.
 * 'results_example': Example of code output.
 
+## 🚀 Future Improvements
+If I had more time to expand this project, I would focus on the following:
+
+* **Error Analysis:** Analyze the raw data noise using Bootstrap method.
+* **Fit Analysis:** Add error bars to residuals fit and add chi squared reduced and P-value goodness of fit indicators.
+* **Image difference:** Analyse the difference in variance of the beam Gaussian fit parameters across multiple frames. Since the beam source is constant we can use it analyse the system noise.
+  
 ## Disclaimer
 This code is intended as a portfolio piece to demonstrate scientific computing skills. **If you are a current student in this course, please adhere to the university's academic integrity policies.** Do not submit this code as your own work.
